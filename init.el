@@ -50,7 +50,6 @@
              (add-hook 'haskell-mode-hook 'flycheck-mode)
              ))
 
-
 ;; You can even use use-package with first-party packages.
 (use-package lisp-mode
   :commands emacs-lisp-mode
