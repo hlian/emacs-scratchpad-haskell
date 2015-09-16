@@ -27,7 +27,7 @@ to tweak it.
 
 * `cd /tmp/scratch`
 * `stack new`
-* `stack build` -- an unfortunate bug means you need to build before opening, as of wrigin
+* `stack build` -- an unfortunate bug means you need to build before opening (as of writing)
 * `emacs app/Main.hs`
 * Move cursor to `IO`
 * Hit `Ctrl-c`, `Ctrl-i` to do the equivalent of an `:info`
