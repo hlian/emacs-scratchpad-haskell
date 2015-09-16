@@ -11,9 +11,27 @@ to tweak it.
 
 ## Installing
 
-* `git clone https://github.com/hlian/emacs-scratchpad-haskell ~/.emacs.d`
-* `cd ~/.emacs.d`
-* `./RUNME.sh`
+Before you get started, you'll need (as of writing) `cabal-helper` in
+your global stack.yaml, because it doesn't (yet) have a Stackage
+entry. Open up `~/.stack/global/stack.yaml` in your favorite text
+editor and make sure it looks like this.
+
+```yaml
+flags: {}
+packages: []
+extra-deps:
+  - cabal-helper-0.6.0.0
+resolver: <SOME RESOLVER>
+```
+
+When that's done, you'll be ready to clone and run the handy-dandy
+setup script I wrote.
+
+```sh
+git clone https://github.com/hlian/emacs-scratchpad-haskell ~/.emacs.d
+cd !$
+./RUNME.sh
+```
 
 ## Features
 
