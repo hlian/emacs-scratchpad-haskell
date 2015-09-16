@@ -11,7 +11,6 @@
 (depends-on "exec-path-from-shell")
 (depends-on "expand-region")
 (depends-on "f")
-(depends-on "flycheck")
 (depends-on "flycheck-cask")
 (depends-on "htmlize")
 (depends-on "idle-highlight-mode")
@@ -30,6 +29,7 @@
 (depends-on "yasnippet")
 
 ; These are the ones you need for Haskell
+(depends-on "ghc")
 (depends-on "haskell-mode")
 (depends-on "flycheck")
 (depends-on "flycheck-haskell")
