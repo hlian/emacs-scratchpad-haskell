@@ -19,6 +19,7 @@ to tweak it.
 
 * Syntax highlighting (haskell-mode)
 * Syntax checking (ghc-mod _or_ hlint)
+* [All the other fantastical ghc-mod features](http://www.mew.org/~kazu/proj/ghc-mod/en/emacs.html)
 * Supports GHC 7.10 and Stack, in addition to older GHCs and Cabal
 * Package management with Cask
 * No impact on Emacs startup performance (use-package)
