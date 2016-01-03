@@ -21,8 +21,12 @@ flags: {}
 packages: []
 extra-deps:
   - cabal-helper-0.6.0.0
-resolver: <SOME RESOLVER>
+resolver: lts-3.20
 ```
+
+Go to [the Stackage website](https://www.stackage.org/lts) and use the
+latest resolver. It almost definitely won't be 3.20 by the time you
+read this.
 
 When that's done, you'll be ready to clone and run the handy-dandy
 setup script I wrote.

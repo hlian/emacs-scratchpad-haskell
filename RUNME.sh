@@ -17,6 +17,12 @@ STACK=$(which stack) || {
     exit 1
 }
 
+HLINT=$(which hlint) || {
+    echo "Installing ghc-mod..."
+    echo "Make sure ~/.local/bin is on your \$PATH..."
+    stack install hlint
+}
+
 GHC_MOD=$(which ghc-mod) || {
     echo "Installing ghc-mod..."
     echo "Make sure ~/.local/bin is on your \$PATH..."
@@ -26,6 +32,7 @@ GHC_MOD=$(which ghc-mod) || {
 
 echo "Found stack: $STACK"
 echo "Found cask: $CASK"
+echo "Found hlint: $HLINT"
 echo "Found ghc-mod: $GHC_MOD"
 cask install
 popd > /dev/null
